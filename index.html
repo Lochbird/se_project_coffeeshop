@@ -47,8 +47,10 @@
           src="./images/inside_coffee_shop.png"
           alt="Inside A Coffee Shop"
         />
-          <h1 class="header__title header__span-accent"><span>Specialty coffee</span></h1>
-          <h1 class="header__title">in the Practicum Library</h1>
+        <h1 class="header__title header__span-accent">
+          <span>Specialty coffee</span>
+        </h1>
+        <h1 class="header__title">in the Practicum Library</h1>
         <p class="header__description">
           Welcome to our study zone! We've got the coffee to energize you and
           the cozy vibes to help you get creative.
@@ -56,10 +58,14 @@
         <div class="header__footer">
           <div class="header__footer-column header__footer_content_hours">
             <h2 class="header__footer-column-hours">Hours:</h2>
-              <ul class="header__footer_list">
-                <li class="header__footer_list_item">Monday – Friday (10:00 – 19:00)</li>
-                <li class="header__footer_list_item">Saturday – Sunday (11:00 – 18:00)</li>
-              </ul>
+            <ul class="header__footer_list">
+              <li class="header__footer_list_item">
+                Monday – Friday (10:00 – 19:00)
+              </li>
+              <li class="header__footer_list_item">
+                Saturday – Sunday (11:00 – 18:00)
+              </li>
+            </ul>
           </div>
           <div class="header__paragraph">
             200 Success Avenue, The Town of Practicum
@@ -67,7 +73,41 @@
         </div>
       </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section class="recipes" id="recipes">
+          <h1 class="recipes__title">Recipes</h1>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convenience:
+          </p>
+          <div class="recipes__videos">
+            <iframe
+              width="480"
+              height="273"
+              src="https://www.youtube.com/embed/j6VlT_jUVPc"
+              title="The Ultimate AeroPress Technique (Episode #3)"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <iframe
+              width="480"
+              height="273"
+              src="https://www.youtube.com/embed/st571DYYTR8"
+              title="The Ultimate French Press Technique"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+            <div class="recipes__video-caption">
+              <p>Aeropress recipe</p>
+              <p>~5 min</p>
+            </div>
+            <div class="recipes__video-caption">
+              <p>French press recipe</p>
+              <p>~15 min</p>
+            </div>
+          </div>
+        </section>
         <section class="menu"></section>
         <section class="reservation"></section>
         <section class="about"></section>
