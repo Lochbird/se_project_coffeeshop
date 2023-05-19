@@ -156,6 +156,9 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   column-gap: 40px;
+}
+
+.recipes__iframe {
   border: 0;
   border-width: 0;
   border-style: none;
