@@ -123,7 +123,6 @@ body {
 .recipes {
   background-color: #0a2750;
   background-image: url(../images/background_recipes.svg);
-  background-position: center;
   background-size: cover;
   padding: 100px 80px 120px 80px;
   box-sizing: border-box;
