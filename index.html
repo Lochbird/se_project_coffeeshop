@@ -104,7 +104,56 @@
           </div>
         </section>
         <section class="menu" id="menu"></section>
-        <section class="reservation" id="booking"></section>
+        <section class="reservation" id="booking">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form">
+            <fieldset class="form__fieldset">
+              <label class="form__label" for="username">Name *</label>
+              <input
+                type="text"
+                name="name"
+                id="username"
+                class="form__input"
+                placeholder="Name Surname"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="guests">Number of guests *</label>
+              <input
+                type="number"
+                name="guests"
+                min="1"
+                max="8"
+                id="guests"
+                class="form__input"
+                placeholder="1-8"
+              />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="date">Date & time *</label>
+              <input type="date" id="date" class="form__input" />
+            </fieldset>
+            <fieldset class="form__fieldset">
+              <label for="email">Your email *</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="form__input"
+                placeholder="email@email.com"
+              />
+            </fieldset>
+          </form>
+          <fieldset class="form__fieldset">
+            <button type="submit" class="form__input form__button">
+              book a table
+            </button>
+            <label for="checkbox" class="form__label"
+              >I agree with the terms of use
+            </label>
+            <input type="checkbox" class="form__checkbox" />
+          </fieldset>
+        </section>
         <section class="about"></section>
       </main>
       <footer class="footer" id="contacts"></footer>
