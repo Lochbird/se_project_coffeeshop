@@ -21,7 +21,7 @@
 .about__content {
   display: flex;
   flex-direction: column;
-  font-family: "Noto Serif";
+  font-family: "Noto-Serif", "Times New Roman", Serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 660px;

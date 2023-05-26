@@ -17,9 +17,7 @@
 }
 
 .menu__subtitle {
-  font-family: "Noto Serif";
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Noto Serif", "Times New Roman", Serif;
   font-size: 20px;
   line-height: 30px;
   max-width: 780px;
@@ -49,8 +47,6 @@
 }
 
 .card__title {
-  font-family: "Inter";
-  font-style: normal;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
@@ -58,7 +54,7 @@
 }
 
 .card__list-item {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", Serif;
   margin: 0 0 16px 0;
   display: flex;
   justify-content: space-between;

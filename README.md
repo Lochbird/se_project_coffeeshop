@@ -13,5 +13,6 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-One idea I have that could improve the project is instead of each page abruptly stopping each new section, it instead blends in comparable to you walking through another door to a new room rather than a gradient kind of blend.
-Knowing me, I may need a few more videos than one to find just the one I want. A feature I would love to learn is a way to switch videos in its place, while still keeping to the same subject. Versatility, I believe anyway, allows for more flow to go through the website instead of keeping it to the general few.
+One idea I had was to have each page blend into each other much like walking into another room in the same house rather than a gradient or a hard edge. Specifically, I mean that the transition to one section to the next has an artistic approach, a border with a dragon or an unconventional bi-sector that divides the page at an angle. This idea could certainly uses experimentation, for all I know there is a reason why we aren't so lean on the idea.
+
+A lot of videos don't meet my needs often, so rather than two videos, I would love to learn how to rotate the video playlist in a way so that it remains simplistic but you can have options beyond the presented.
