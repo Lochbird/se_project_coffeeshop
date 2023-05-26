@@ -34,39 +34,3 @@
   column-gap: 100px;
   justify-content: center;
 }
-
-.card {
-  list-style: none;
-  width: 540px;
-  margin: 0;
-  padding: 0;
-}
-
-.card:last-of-type {
-  margin-top: 100px;
-}
-
-.card__title {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  margin: 0 0 32px 0;
-}
-
-.card__list-item {
-  font-family: "Noto Serif", "Times New Roman", Serif;
-  margin: 0 0 16px 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-.card__list-item:last-of-type {
-  margin: 0;
-}
-
-.card__list-divider {
-  border: 1.5px #000;
-  border-style: none none solid;
-  flex-grow: 1;
-  margin: 0 12px;
-}
