@@ -11,14 +11,6 @@
   box-sizing: border-box;
 }
 
-.header__logo {
-  width: 125px;
-  height: 142px;
-  position: absolute;
-  top: 30px;
-  left: 30px;
-}
-
 .header__image {
   position: absolute;
   width: 646px;
@@ -31,7 +23,8 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
-  margin: 0;
+  max-width: 729px;
+  margin: 202px 0 0;
 }
 
 .header__span-accent {
@@ -39,7 +32,11 @@
   font-style: italic;
   font-weight: normal;
   color: #2f80ed;
-  margin: 202px 0 0;
+}
+
+.header__span-accent::after {
+  content: "\a";
+  white-space: pre;
 }
 
 .header__description {
@@ -83,4 +80,6 @@
   position: absolute;
   bottom: 40px;
   right: 80px;
+  margin: 0;
+  text-align: end;
 }

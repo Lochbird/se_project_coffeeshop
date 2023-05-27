@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-.card:last-of-type {
-  margin-top: 100px;
-}
-
 .card__title {
   font-weight: bold;
   font-size: 20px;
