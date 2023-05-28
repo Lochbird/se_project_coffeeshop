@@ -48,9 +48,14 @@
   text-decoration: none;
   color: #fff;
   display: flex;
+  align-items: center;
 }
 
 .footer__social-link:hover {
   color: #c1c1c1;
   transition: color 0.2s linear;
+}
+
+.footer__copyright {
+  margin: 0;
 }

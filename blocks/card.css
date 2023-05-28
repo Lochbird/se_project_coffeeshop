@@ -12,11 +12,15 @@
   margin: 0 0 32px 0;
 }
 
+.card__list {
+  padding: 0;
+  margin: 0;
+}
+
 .card__list-item {
   font-family: "Noto Serif", "Times New Roman", Serif;
   margin: 0 0 16px 0;
   display: flex;
-  justify-content: space-between;
 }
 
 .card__list-item:last-of-type {

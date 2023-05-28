@@ -1,3 +1,7 @@
+p {
+  margin: 0;
+}
+
 .header {
   background-color: #fff;
   background-image: url(../images/background_header.svg);
@@ -28,15 +32,11 @@
 }
 
 .header__span-accent {
+  display: block;
   font-family: "Noto Serif", "Times New Roman", Serif;
   font-style: italic;
   font-weight: normal;
   color: #2f80ed;
-}
-
-.header__span-accent::after {
-  content: "\a";
-  white-space: pre;
 }
 
 .header__description {
@@ -49,37 +49,15 @@
 
 .header__footer {
   display: flex;
-  flex-direction: row;
-  font-style: normal;
-  font-weight: 500;
+  margin-top: auto;
+  justify-content: space-between;
+  align-items: flex-end;
   color: #838383;
-  padding: 0;
-}
-
-.header__footer-column {
-  position: absolute;
-  bottom: 40px;
-  left: 80px;
-}
-
-.header__footer-column-hours {
   font-weight: 500;
-  font-size: 16px;
-  margin: 0;
-}
-
-.header__footer_list {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  font-style: normal;
 }
 
 .header__paragraph {
-  position: absolute;
-  bottom: 40px;
-  right: 80px;
-  margin: 0;
-  text-align: end;
+  display: flex;
+  flex-direction: column;
 }
